@@ -6,7 +6,7 @@ gallery_date: 2021-02-21 00:00:00
 frontpage: true
 homepage_description_markdown: Gallery home page text
 frontpagetitle: Title of gallery here
-display_image: false
+display_image: true
 main_image_path: /assets/images/img-1117.jpg
 main_image_caption:
 thumb_crop: true
