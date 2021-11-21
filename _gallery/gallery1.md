@@ -1,42 +1,48 @@
 ---
-title: "Gallery 1"
+title: Gallery 1
 display_title: true
 permalink: /gallery/one/
-gallery_date: 2019-02-01 00:00:00
+gallery_date: 2021-02-21 00:00:00
 frontpage: true
-homepage_description_markdown: 
-frontpagetitle: 
+homepage_description_markdown: Gallery home page text
+frontpagetitle: Title of gallery here
 display_image: false
-main_image_path:
+main_image_path: /assets/images/img-1117.jpg
 main_image_caption:
 thumb_crop: true
 display_thumb_title: true
 images:
-  - image_path:
+  - image_path: /assets/images/img-3049.jpg
+    image_title:
+    image_description:
+  - image_path: /assets/images/img-4391.jpg
+    image_title:
+    image_description:
+  - image_path: /assets/images/img-3916.jpg
     image_title:
     image_description:
 archive: false
 _options:
   image_path:
-    uploads_dir: "assets/images/:year"
+    uploads_dir: assets/images/:year
     width: 1200
     height: 1200
     resize_style: contain
     mime_type: image/jpeg
   main_image_path:
-    uploads_dir: "assets/images/:year"
+    uploads_dir: assets/images/:year
     width: 1200
     height: 1200
     resize_style: contain
     mime_type: image/jpeg
   content:
-    uploads_dir: "assets/:year"
+    uploads_dir: assets/:year
 _comments:
   title: Gallery title
   permalink: Edit the web address here - letters and hyphen only
   display_image: Show featured image at the top of the gallery
   display_title: Show the title at the top of the gallery
-  display_thumb_title: Show titles with image thumbnails 
+  display_thumb_title: Show titles with image thumbnails
   main_image_path: Image used to represent your gallery
   images: Add and edit your gallery images here
   image_description: Usually only shown in the image close up
@@ -46,4 +52,5 @@ _comments:
   frontpagetitle: Title for homepage display
   homepage_description_markdown: Text used on homepage if shown
 ---
+
 
